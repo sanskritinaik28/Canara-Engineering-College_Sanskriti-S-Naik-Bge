@@ -1,3 +1,6 @@
+canara engineering college manglore
+sanskriti.280402@gmail.com
+
 public class LengthOfLastWord {
     public static int lengthOfLastWord(String s) {
         String trimmedString = s.trim();

@@ -1,0 +1,19 @@
+public class LengthOfLastWord {
+    public static int lengthOfLastWord(String s) {
+        String trimmedString = s.trim();
+
+        if (trimmedString.isEmpty()) {
+            return 0;
+        }
+
+        String[] words = trimmedString.split("\\s+");
+
+        return words[words.length - 1].length();
+    }
+
+    public static void main(String[] args) {
+        String inputString = "Hello World";
+        int result = lengthOfLastWord(inputString);
+        System.out.println(result);
+    }
+}
